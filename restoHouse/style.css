@@ -1,0 +1,289 @@
+/*
+Theme Name:         RestoHuse Theme
+Description:        RestoHuse Theme
+Version:            1.0
+Author:             aldoj03
+Author URI:         https://aldoj03.github.io/personal_website/
+
+License:            GPLv2 or later
+License URI:        http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+
+img{
+    max-width: 100%;
+}
+
+html,body{
+   width: 100%;
+   margin: 0;
+    font-size: 1rem;
+    background-color: rgb(22, 22, 22);
+    overflow-x: hidden;
+    font-family: acrom;
+}
+a{
+    text-decoration: none;
+    color:white
+}
+#header-opacity{
+    background: linear-gradient(45deg, black, transparent);
+    height: 100%;
+    
+}
+
+header{
+    background-color: rgb(185, 147, 147);
+    height: 30rem;
+}
+
+
+ nav#header-menu{
+    width: 100%;
+
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+ul#header-menu{
+    list-style: none;
+    display: flex;
+    margin-top: 0;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom-left-radius: 18px;
+    background-color: rgba(0, 0, 0, 0.849);
+    font-size: 1.2rem;
+    color: whitesmoke;
+}
+
+ul#header-menu   li a{  
+    margin: 6px;
+    font-family: "coming";
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 1000ms;
+    border-radius: 3px;
+    padding: 3px;
+    background-color: rgba(175, 255, 111, 0.452);
+}
+.menu-header-menu-container ul li a:hover{
+    background-color: rgba(125, 185, 75, 0.452);
+    
+}
+
+#description{
+    width: 40%;
+    margin: 8rem 2rem;
+    color:white;
+}
+#description{
+    font-family: "allura";
+    font-size: 1.7rem;
+    width: 40%;
+}
+
+section#main-menu{
+    width: 100%;
+    background: #6e8659;
+    padding: 1px;
+}
+
+ul#main-menu{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: wrap;
+    padding: 0 2rem;
+    margin: 0;
+}
+
+ul#main-menu  li{
+    font-size: 1.3rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+ul#main-menu  li a{  
+    font-family: "coming";
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1)  1000ms;
+    
+}
+
+ul#main-menu  li a:hover{
+   color: rgb(201, 201, 201);
+}
+
+#restaurant-container,#food-container{
+    margin: 1rem 3rem;
+    background:  rgba(109, 109, 109, 0.32);
+    border: 1px solid rgb(70, 70, 70);
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-flow: wrap;
+ 
+}
+#food-container-single{
+    margin: 1rem 3rem;
+    background:  rgba(109, 109, 109, 0.32);
+    border: 1px solid rgb(70, 70, 70);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30rem;
+}
+#restaurant-container h1,#food-container h1{
+    color: white;   
+    position: absolute;
+}
+
+.food-card{
+    background:  rgba(128, 146, 128, 0.42);
+    min-width: 15rem;
+    min-height: 25rem;
+    margin: 3rem;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 8px;
+    color: white;
+    box-shadow: 0px 12px 20px 0px #00000052;
+}
+.food-card h2{
+    font-family: "aladin";
+    font-weight: normal;
+}
+.food-card p{
+    font-family: "coming";
+    font-weight: normal;
+}
+.food-card-single{
+    background:  rgba(128, 146, 128, 0.42);
+    min-width: 80%;
+    min-height: 80%;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-flow: wrap;
+    color: white;
+    box-shadow: 0px 12px 20px 0px #00000052;
+}
+
+.food-info{
+    margin: 1rem;
+    width: 14rem;
+    height: 15rem;
+    text-align: center;
+}
+.food-info p{
+    font-family: "coming";
+}
+.food-card .image-card img{
+    border-radius: 3px;
+    box-shadow:0px 12px 20px 0px #00000021;
+}
+.food-card-single .image-card-single img{
+    border-radius: 3px;
+    margin: 1rem;
+    box-shadow:0px 12px 20px 0px #00000021;
+}
+::-webkit-scrollbar{
+    background:rgb(63, 63, 63);
+    width: .5rem;
+}
+
+::-webkit-scrollbar-thumb{
+    background: rgba(218, 173, 90, 0.747);
+   
+    border-radius: 5px;
+}
+
+footer{
+    background: linear-gradient(45deg, #778c778a, #6e8659);
+    padding: 2rem 3rem;
+    box-sizing: border-box;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer p{
+    width: 40%;
+}
+footer ul{
+    list-style: none;
+    margin-left: 1rem;
+}
+footer section{
+    display: flex;
+    width: 30%;
+    list-style: none;
+}
+footer hr{
+    width: 0px;
+    height: 8rem;
+    transform: rotate(0deg);
+    background: white;
+}
+
+.edit-link{
+    padding: 1rem;
+    margin: 1rem;
+    background: rgba(197, 188, 65, 0.377);
+    display: inline;
+
+}
+.post-tags{
+    list-style: none;
+    display: inline;
+
+}
+.post-tags li{
+    display: inline;
+    margin: .8rem;
+}
+.post-tags li a{
+    color: salmon;
+}
+
+#footer-post{
+    display: flex;
+    justify-content:space-between
+}
+
+#footer-menu li{
+    padding: 5px 2rem;
+    transition: cubic-bezier(0.165, 0.84, 0.44, 1) 500ms ; 
+}
+#footer-menu li:hover{
+    background: rgba(0, 0, 0, 0.363);
+}
+
+h1{
+    font-family: "aladin";
+    font-weight: normal;
+}
+
+.menu-item-has-children:hover ul.sub-menu{
+
+display: block;
+
+}
+.menu-item-has-children:hover ul.sub-menu li{
+    transition: 500ms;
+}
+.menu-item-has-children:hover ul.sub-menu li:hover{
+    background: #546149;
+}
+ul.sub-menu{
+    padding: 0;
+    min-width: 10rem;
+    display: none;
+    position: absolute;
+    list-style: none;
+    background: #6e8659;
+}
+
